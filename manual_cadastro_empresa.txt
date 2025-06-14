@@ -1,0 +1,16 @@
+MANUAL DE PROCEDIMENTOS DE CADASTRO - EMPRESA EXEMPLO LTDA
+
+1. INTRODUÇÃO E OBJETIVOS
+Este manual estabelece as diretrizes e procedimentos padrão para o cadastro de clientes, fornecedores e parceiros comerciais em nossos sistemas. O objetivo principal é garantir a uniformidade, segurança e conformidade legal de todos os dados cadastrais, assegurando que as informações sejam coletadas, armazenadas e gerenciadas de acordo com as melhores práticas de mercado e em conformidade com a Lei Geral de Proteção de Dados (LGPD). Todos os colaboradores envolvidos no processo de cadastro devem seguir rigorosamente estas orientações.
+
+2. DOCUMENTAÇÃO NECESSÁRIA
+Para efetuar qualquer cadastro em nosso sistema, é obrigatória a apresentação dos seguintes documentos: Pessoa Física - RG, CPF, comprovante de residência atualizado (últimos 3 meses) e comprovante de renda quando aplicável; Pessoa Jurídica - CNPJ, contrato social ou estatuto atualizado, documentos pessoais dos sócios/representantes legais, comprovante de endereço da sede e certidões negativas de débitos federais, estaduais e municipais. Todos os documentos devem ser apresentados em via original ou cópia autenticada, sendo digitalizados e armazenados em nosso sistema de gestão documental.
+
+3. PROCESSO DE VERIFICAÇÃO E VALIDAÇÃO
+Após o recebimento da documentação, nossa equipe de análise cadastral realizará a verificação completa das informações fornecidas. Este processo inclui: consulta aos órgãos de proteção ao crédito, validação de dados junto à Receita Federal, confirmação de endereço através de ferramentas georreferenciadas e, quando necessário, visita in loco para empresas de grande porte. O prazo máximo para conclusão da análise é de 48 horas úteis para pessoas físicas e 72 horas úteis para pessoas jurídicas, podendo ser estendido caso sejam necessárias diligências adicionais.
+
+4. APROVAÇÃO E ATIVAÇÃO DO CADASTRO
+Uma vez aprovado pela equipe de análise, o cadastro será liberado no sistema com um código único de identificação. O cliente receberá suas credenciais de acesso através do e-mail cadastrado, devendo realizar a primeira alteração de senha obrigatoriamente no primeiro acesso. Para cadastros empresariais, será designado um gerente de relacionamento que fará o contato inicial em até 24 horas após a aprovação. Todos os dados cadastrais devem ser atualizados anualmente ou sempre que houver alterações significativas nas informações fornecidas.
+
+5. POLÍTICA DE PRIVACIDADE E SEGURANÇA
+Em conformidade com a LGPD, todos os dados coletados são tratados com absoluto sigilo e utilizados exclusivamente para os fins comerciais estabelecidos em contrato. O acesso às informações cadastrais é restrito aos colaboradores autorizados, sendo todas as consultas registradas em log de auditoria. Os clientes têm direito de solicitar, a qualquer momento, a visualização, correção ou exclusão de seus dados pessoais através dos canais oficiais de atendimento. A empresa mantém rigorosos protocolos de segurança da informação, incluindo criptografia de dados sensíveis e backup diário de todas as informações cadastrais.
