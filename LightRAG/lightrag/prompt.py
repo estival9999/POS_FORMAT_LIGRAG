@@ -13,7 +13,24 @@ PROMPTS["DEFAULT_RECORD_DELIMITER"] = "##"
 PROMPTS["DEFAULT_COMPLETION_DELIMITER"] = "<|COMPLETE|>"
 
 
-PROMPTS["DEFAULT_ENTITY_TYPES"] = ["organization", "person", "geo", "event", "category", "decision"]  
+PROMPTS["DEFAULT_ENTITY_TYPES"] = [
+    "organization", 
+    "person", 
+    "geo", 
+    "event", 
+    "category", 
+    "decision",
+    "process",       # NOVO: fluxos de trabalho, procedimentos, metodologias
+    "concept",       # NOVO: ideias abstratas, teorias, princípios
+    "metric",        # NOVO: KPIs, medidas de desempenho, estatísticas
+    "risk",          # NOVO: ameaças, vulnerabilidades, pontos de atenção
+    "goal",          # NOVO: objetivos, metas, resultados esperados
+    "problem",       # NOVO: obstáculos, dificuldades, questões a resolver
+    "resource",      # NOVO: ativos, ferramentas, materiais, orçamentos
+    "rule",          # NOVO: regulamentos, normas, diretrizes
+    "stakeholder",   # NOVO: partes interessadas, grupos afetados
+    "timeline",      # NOVO: prazos, cronogramas, períodos importantes
+]  
 
 PROMPTS["DEFAULT_USER_PROMPT"] = "n/a"
 
@@ -166,6 +183,69 @@ Saída:
 ("relationship"{tuple_delimiter}"Conselho de Administração da TechCorp"{tuple_delimiter}"Suspensão do Projeto de Automação"{tuple_delimiter}"O Conselho decidiu suspender o projeto para redirecionar recursos."{tuple_delimiter}"realocação de recursos, decisão estratégica"{tuple_delimiter}9){record_delimiter}
 ("relationship"{tuple_delimiter}"Aprovação de Investimento para Expansão Asiática"{tuple_delimiter}"Suspensão do Projeto de Automação"{tuple_delimiter}"A suspensão do projeto foi necessária para viabilizar recursos para a expansão."{tuple_delimiter}"trade-off estratégico, realocação de investimento"{tuple_delimiter}7){record_delimiter}
 ("content_keywords"{tuple_delimiter}"decisão corporativa, expansão internacional, investimento estratégico, governança corporativa"){completion_delimiter}
+#############################""",
+    # NOVO EXEMPLO 5: Demonstrando todos os novos tipos de entidade
+    """Exemplo 5:
+
+Entity_types: [organization, person, geo, event, category, decision, process, concept, metric, risk, goal, problem, resource, rule, stakeholder, timeline]
+Texto:
+```
+A DigitalTransform Inc. enfrentou desafios significativos durante a implementação do seu programa de transformação digital em 2023. O CEO Roberto Almeida identificou que o principal problema era a resistência cultural dos funcionários, que impactava diretamente a meta de aumentar a eficiência operacional em 40% até dezembro de 2024.
+
+O processo de mudança organizacional foi redesenhado pela consultoria McKinsey, incorporando os princípios de gestão ágil e a metodologia Lean Six Sigma. Durante o workshop de planejamento estratégico em Miami, foram definidos os seguintes KPIs: taxa de adoção digital (atualmente em 23%), Net Promoter Score interno (NPS de -15) e tempo médio de conclusão de processos (redução de 8 para 3 dias).
+
+O Comitê de Governança Digital, liderado pela CTO Ana Beatriz Chen, aprovou um orçamento de US$ 5 milhões para a iniciativa, mas alertou sobre o risco de não conformidade com a nova Lei Geral de Proteção de Dados (LGPD) e as políticas de segurança cibernética ISO 27001. Os principais stakeholders - incluindo o sindicato dos trabalhadores, os investidores da Blackrock e os clientes enterprise - expressaram preocupações sobre o prazo agressivo de 18 meses para conclusão.
+
+Para mitigar os riscos identificados, foi estabelecido um plano de contingência que inclui treinamento intensivo para 2.000 colaboradores e a contratação de uma equipe especializada em change management. O marco crítico é a implementação do novo ERP até março de 2024, considerado essencial para atingir o objetivo de redução de custos operacionais.
+```
+
+Saída:
+("entity"{tuple_delimiter}"DigitalTransform Inc."{tuple_delimiter}"organization"{tuple_delimiter}"DigitalTransform Inc. é uma empresa que está passando por um programa de transformação digital com múltiplos desafios e iniciativas."){record_delimiter}
+("entity"{tuple_delimiter}"Roberto Almeida"{tuple_delimiter}"person"{tuple_delimiter}"Roberto Almeida é o CEO da DigitalTransform Inc. que identificou a resistência cultural como principal problema."){record_delimiter}
+("entity"{tuple_delimiter}"Ana Beatriz Chen"{tuple_delimiter}"person"{tuple_delimiter}"Ana Beatriz Chen é a CTO que lidera o Comitê de Governança Digital da empresa."){record_delimiter}
+("entity"{tuple_delimiter}"McKinsey"{tuple_delimiter}"organization"{tuple_delimiter}"McKinsey é a consultoria responsável por redesenhar o processo de mudança organizacional."){record_delimiter}
+("entity"{tuple_delimiter}"Comitê de Governança Digital"{tuple_delimiter}"organization"{tuple_delimiter}"Comitê liderado pela CTO responsável por aprovar orçamentos e supervisionar a transformação digital."){record_delimiter}
+("entity"{tuple_delimiter}"Miami"{tuple_delimiter}"geo"{tuple_delimiter}"Miami é a cidade onde foi realizado o workshop de planejamento estratégico."){record_delimiter}
+("entity"{tuple_delimiter}"Workshop de Planejamento Estratégico"{tuple_delimiter}"event"{tuple_delimiter}"Evento realizado em Miami onde foram definidos KPIs e estratégias para a transformação digital."){record_delimiter}
+("entity"{tuple_delimiter}"Programa de Transformação Digital"{tuple_delimiter}"category"{tuple_delimiter}"Iniciativa abrangente da empresa para modernizar operações e aumentar eficiência."){record_delimiter}
+("entity"{tuple_delimiter}"Aprovação do Orçamento de US$ 5 Milhões"{tuple_delimiter}"decision"{tuple_delimiter}"Decisão do Comitê de Governança Digital de aprovar investimento para a iniciativa de transformação."){record_delimiter}
+("entity"{tuple_delimiter}"Implementação do Novo ERP"{tuple_delimiter}"decision"{tuple_delimiter}"Decisão de implementar novo sistema ERP como parte crítica da transformação digital."){record_delimiter}
+("entity"{tuple_delimiter}"Processo de Mudança Organizacional"{tuple_delimiter}"process"{tuple_delimiter}"Processo redesenhado pela McKinsey para gerenciar a transformação cultural e operacional da empresa."){record_delimiter}
+("entity"{tuple_delimiter}"Metodologia Lean Six Sigma"{tuple_delimiter}"process"{tuple_delimiter}"Metodologia de melhoria de processos incorporada ao programa de transformação."){record_delimiter}
+("entity"{tuple_delimiter}"Gestão Ágil"{tuple_delimiter}"concept"{tuple_delimiter}"Princípios de gestão ágil aplicados na transformação organizacional da empresa."){record_delimiter}
+("entity"{tuple_delimiter}"Transformação Digital"{tuple_delimiter}"concept"{tuple_delimiter}"Conceito central que guia todas as iniciativas de modernização da DigitalTransform Inc."){record_delimiter}
+("entity"{tuple_delimiter}"Taxa de Adoção Digital"{tuple_delimiter}"metric"{tuple_delimiter}"KPI que mede a adoção de ferramentas digitais, atualmente em 23%."){record_delimiter}
+("entity"{tuple_delimiter}"Net Promoter Score Interno"{tuple_delimiter}"metric"{tuple_delimiter}"Métrica de satisfação interna dos funcionários, atualmente em -15."){record_delimiter}
+("entity"{tuple_delimiter}"Tempo Médio de Conclusão de Processos"{tuple_delimiter}"metric"{tuple_delimiter}"KPI que mede eficiência operacional, meta de reduzir de 8 para 3 dias."){record_delimiter}
+("entity"{tuple_delimiter}"Resistência Cultural dos Funcionários"{tuple_delimiter}"risk"{tuple_delimiter}"Principal risco identificado pelo CEO que impacta diretamente as metas de eficiência."){record_delimiter}
+("entity"{tuple_delimiter}"Risco de Não Conformidade com LGPD"{tuple_delimiter}"risk"{tuple_delimiter}"Risco regulatório relacionado à proteção de dados na transformação digital."){record_delimiter}
+("entity"{tuple_delimiter}"Risco de Segurança Cibernética ISO 27001"{tuple_delimiter}"risk"{tuple_delimiter}"Risco de não atender aos padrões de segurança durante a implementação."){record_delimiter}
+("entity"{tuple_delimiter}"Aumentar Eficiência Operacional em 40%"{tuple_delimiter}"goal"{tuple_delimiter}"Meta principal do programa de transformação digital até dezembro de 2024."){record_delimiter}
+("entity"{tuple_delimiter}"Redução de Custos Operacionais"{tuple_delimiter}"goal"{tuple_delimiter}"Objetivo a ser alcançado através da implementação do novo ERP."){record_delimiter}
+("entity"{tuple_delimiter}"Resistência Cultural"{tuple_delimiter}"problem"{tuple_delimiter}"Principal problema identificado que afeta a adoção das novas tecnologias e processos."){record_delimiter}
+("entity"{tuple_delimiter}"Prazo Agressivo de 18 Meses"{tuple_delimiter}"problem"{tuple_delimiter}"Desafio temporal que preocupa os stakeholders sobre a viabilidade da implementação."){record_delimiter}
+("entity"{tuple_delimiter}"Orçamento de US$ 5 Milhões"{tuple_delimiter}"resource"{tuple_delimiter}"Recurso financeiro aprovado para executar o programa de transformação digital."){record_delimiter}
+("entity"{tuple_delimiter}"Equipe de Change Management"{tuple_delimiter}"resource"{tuple_delimiter}"Recurso humano especializado a ser contratado para gerenciar mudanças."){record_delimiter}
+("entity"{tuple_delimiter}"2.000 Colaboradores para Treinamento"{tuple_delimiter}"resource"{tuple_delimiter}"Recurso humano que receberá capacitação intensiva."){record_delimiter}
+("entity"{tuple_delimiter}"Lei Geral de Proteção de Dados (LGPD)"{tuple_delimiter}"rule"{tuple_delimiter}"Regulamentação brasileira de proteção de dados que deve ser cumprida."){record_delimiter}
+("entity"{tuple_delimiter}"Políticas de Segurança ISO 27001"{tuple_delimiter}"rule"{tuple_delimiter}"Normas internacionais de segurança da informação a serem seguidas."){record_delimiter}
+("entity"{tuple_delimiter}"Sindicato dos Trabalhadores"{tuple_delimiter}"stakeholder"{tuple_delimiter}"Grupo de interesse representando funcionários com preocupações sobre o programa."){record_delimiter}
+("entity"{tuple_delimiter}"Investidores da Blackrock"{tuple_delimiter}"stakeholder"{tuple_delimiter}"Stakeholders financeiros interessados no sucesso da transformação digital."){record_delimiter}
+("entity"{tuple_delimiter}"Clientes Enterprise"{tuple_delimiter}"stakeholder"{tuple_delimiter}"Grupo de clientes corporativos afetados pelas mudanças operacionais."){record_delimiter}
+("entity"{tuple_delimiter}"Dezembro de 2024"{tuple_delimiter}"timeline"{tuple_delimiter}"Prazo final para atingir a meta de 40% de aumento na eficiência operacional."){record_delimiter}
+("entity"{tuple_delimiter}"Março de 2024"{tuple_delimiter}"timeline"{tuple_delimiter}"Marco crítico para implementação do novo sistema ERP."){record_delimiter}
+("entity"{tuple_delimiter}"Prazo de 18 Meses"{tuple_delimiter}"timeline"{tuple_delimiter}"Período total estipulado para conclusão completa do programa de transformação."){record_delimiter}
+("relationship"{tuple_delimiter}"Roberto Almeida"{tuple_delimiter}"Resistência Cultural"{tuple_delimiter}"O CEO identificou a resistência cultural como o principal problema da transformação."{tuple_delimiter}"diagnóstico organizacional, liderança"{tuple_delimiter}9){record_delimiter}
+("relationship"{tuple_delimiter}"Processo de Mudança Organizacional"{tuple_delimiter}"McKinsey"{tuple_delimiter}"A McKinsey foi responsável por redesenhar o processo de mudança da empresa."{tuple_delimiter}"consultoria estratégica, redesenho de processos"{tuple_delimiter}10){record_delimiter}
+("relationship"{tuple_delimiter}"Ana Beatriz Chen"{tuple_delimiter}"Comitê de Governança Digital"{tuple_delimiter}"Ana Beatriz Chen lidera o comitê como CTO da empresa."{tuple_delimiter}"liderança técnica, governança"{tuple_delimiter}9){record_delimiter}
+("relationship"{tuple_delimiter}"Comitê de Governança Digital"{tuple_delimiter}"Orçamento de US$ 5 Milhões"{tuple_delimiter}"O Comitê aprovou o orçamento para a iniciativa de transformação."{tuple_delimiter}"aprovação financeira, alocação de recursos"{tuple_delimiter}10){record_delimiter}
+("relationship"{tuple_delimiter}"Resistência Cultural dos Funcionários"{tuple_delimiter}"Aumentar Eficiência Operacional em 40%"{tuple_delimiter}"A resistência cultural impacta diretamente o alcance da meta de eficiência."{tuple_delimiter}"impacto negativo, barreira organizacional"{tuple_delimiter}8){record_delimiter}
+("relationship"{tuple_delimiter}"Taxa de Adoção Digital"{tuple_delimiter}"Resistência Cultural"{tuple_delimiter}"A baixa taxa de 23% reflete o problema de resistência cultural."{tuple_delimiter}"indicador de problema, métrica de impacto"{tuple_delimiter}9){record_delimiter}
+("relationship"{tuple_delimiter}"Implementação do Novo ERP"{tuple_delimiter}"Março de 2024"{tuple_delimiter}"O ERP deve ser implementado até março de 2024 como marco crítico."{tuple_delimiter}"prazo de implementação, marco temporal"{tuple_delimiter}10){record_delimiter}
+("relationship"{tuple_delimiter}"Risco de Não Conformidade com LGPD"{tuple_delimiter}"Lei Geral de Proteção de Dados (LGPD)"{tuple_delimiter}"O risco surge da necessidade de cumprir a regulamentação durante a transformação."{tuple_delimiter}"conformidade regulatória, risco legal"{tuple_delimiter}9){record_delimiter}
+("relationship"{tuple_delimiter}"Sindicato dos Trabalhadores"{tuple_delimiter}"Prazo Agressivo de 18 Meses"{tuple_delimiter}"O sindicato expressou preocupações sobre o prazo considerado muito curto."{tuple_delimiter}"preocupação stakeholder, pressão temporal"{tuple_delimiter}7){record_delimiter}
+("relationship"{tuple_delimiter}"Equipe de Change Management"{tuple_delimiter}"Resistência Cultural"{tuple_delimiter}"A equipe será contratada especificamente para mitigar a resistência cultural."{tuple_delimiter}"solução proposta, gestão de mudança"{tuple_delimiter}8){record_delimiter}
+("content_keywords"{tuple_delimiter}"transformação digital, gestão de mudança, KPIs, riscos organizacionais, governança corporativa, stakeholder management"){completion_delimiter}
 #############################"""  
 ]
 
