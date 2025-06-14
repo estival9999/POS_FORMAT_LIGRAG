@@ -1,16 +1,119 @@
-MANUAL DE PROCEDIMENTOS DE CADASTRO - EMPRESA EXEMPLO LTDA
-
-1. INTRODUÇÃO E OBJETIVOS
-Este manual estabelece as diretrizes e procedimentos padrão para o cadastro de clientes, fornecedores e parceiros comerciais em nossos sistemas. O objetivo principal é garantir a uniformidade, segurança e conformidade legal de todos os dados cadastrais, assegurando que as informações sejam coletadas, armazenadas e gerenciadas de acordo com as melhores práticas de mercado e em conformidade com a Lei Geral de Proteção de Dados (LGPD). Todos os colaboradores envolvidos no processo de cadastro devem seguir rigorosamente estas orientações.
-
-2. DOCUMENTAÇÃO NECESSÁRIA
-Para efetuar qualquer cadastro em nosso sistema, é obrigatória a apresentação dos seguintes documentos: Pessoa Física - RG, CPF, comprovante de residência atualizado (últimos 3 meses) e comprovante de renda quando aplicável; Pessoa Jurídica - CNPJ, contrato social ou estatuto atualizado, documentos pessoais dos sócios/representantes legais, comprovante de endereço da sede e certidões negativas de débitos federais, estaduais e municipais. Todos os documentos devem ser apresentados em via original ou cópia autenticada, sendo digitalizados e armazenados em nosso sistema de gestão documental.
-
-3. PROCESSO DE VERIFICAÇÃO E VALIDAÇÃO
-Após o recebimento da documentação, nossa equipe de análise cadastral realizará a verificação completa das informações fornecidas. Este processo inclui: consulta aos órgãos de proteção ao crédito, validação de dados junto à Receita Federal, confirmação de endereço através de ferramentas georreferenciadas e, quando necessário, visita in loco para empresas de grande porte. O prazo máximo para conclusão da análise é de 48 horas úteis para pessoas físicas e 72 horas úteis para pessoas jurídicas, podendo ser estendido caso sejam necessárias diligências adicionais.
-
-4. APROVAÇÃO E ATIVAÇÃO DO CADASTRO
-Uma vez aprovado pela equipe de análise, o cadastro será liberado no sistema com um código único de identificação. O cliente receberá suas credenciais de acesso através do e-mail cadastrado, devendo realizar a primeira alteração de senha obrigatoriamente no primeiro acesso. Para cadastros empresariais, será designado um gerente de relacionamento que fará o contato inicial em até 24 horas após a aprovação. Todos os dados cadastrais devem ser atualizados anualmente ou sempre que houver alterações significativas nas informações fornecidas.
-
-5. POLÍTICA DE PRIVACIDADE E SEGURANÇA
-Em conformidade com a LGPD, todos os dados coletados são tratados com absoluto sigilo e utilizados exclusivamente para os fins comerciais estabelecidos em contrato. O acesso às informações cadastrais é restrito aos colaboradores autorizados, sendo todas as consultas registradas em log de auditoria. Os clientes têm direito de solicitar, a qualquer momento, a visualização, correção ou exclusão de seus dados pessoais através dos canais oficiais de atendimento. A empresa mantém rigorosos protocolos de segurança da informação, incluindo criptografia de dados sensíveis e backup diário de todas as informações cadastrais.
+Bom dia pessoal, vamos começar nossa reunião. Marcos, você pode fechar a porta por favor? Ótimo. Então pessoal, como todos sabem, estamos aqui para discutir o projeto Beta Connect e fazer um alinhamento geral sobre onde estamos e para onde vamos. Ana, você preparou aquela apresentação que conversamos?
+Sim Carlos, está tudo pronto. Mas antes de começar, o Roberto ainda não chegou? Ele disse que ia se atrasar uns quinze minutos por causa do trânsito.
+Sem problemas, podemos começar sem ele. O Roberto pode se juntar quando chegar. Patrícia, você pode fazer um resumo rápido da situação atual para quem não estava na última reunião?
+Claro. Então pessoal, o projeto Beta Connect foi iniciado em janeiro e estamos agora na reta final da primeira fase. O objetivo principal é criar uma plataforma integrada de comunicação interna que vai conectar todas as nossas unidades. Até agora, investimos cerca de duzentos e trinta mil reais e entregamos aproximadamente setenta por cento do escopo planejado.
+Perfeito Patrícia. E Fernando, como está a parte técnica? Ontem você mencionou alguns desafios com a integração das APIs.
+Ah sim Carlos, então, a questão é que descobrimos que o sistema da unidade de Campinas usa uma versão muito antiga do protocolo de comunicação. O João Paulo, que é o responsável técnico de lá, confirmou que eles não conseguem atualizar por enquanto porque dependem de um fornecedor externo que está com problemas.
+Poxa, isso é complicado. E não tem como fazer uma ponte temporária? Lembro que a Mariana sugeriu algo assim na reunião passada.
+Exato, a Mariana teve uma ideia interessante de criar um middleware que traduz os protocolos. Conversei com ela ontem e tecnicamente é viável, mas vai adicionar umas três semanas ao cronograma. O que vocês acham?
+Olha Fernando, três semanas é bastante tempo. O Rodrigo da diretoria está cobrando muito o lançamento. Tem alguma alternativa mais rápida?
+Na verdade tenho uma sugestão. Que tal deixarmos Campinas para uma segunda fase e lançarmos primeiro com as outras unidades? São Paulo, Rio e Brasília já estão prontas. O Campinas representa só doze por cento do total de usuários mesmo.
+Interessante essa abordagem do Lucas. Ana, qual sua opinião do ponto de vista de gerenciamento de projeto?
+Acho que faz sentido, Carlos. Inclusive, do ponto de vista de gestão de mudanças é até melhor. Implementamos nas unidades maiores primeiro, resolvemos os bugs que sempre aparecem, e depois chegamos em Campinas com um sistema mais maduro.
+Boa, e o Gustavo do marketing vai adorar poder divulgar um lançamento parcial mais cedo. Ele vive reclamando que prometemos coisas para os funcionários e depois atrasamos.
+Verdade, o Gustavo mesmo comentou isso na semana passada. Ele quer começar a campanha de comunicação interna logo para preparar o pessoal. Aliás, onde está ele hoje? Não vi na lista de presentes.
+O Gustavo está viajando, foi para Recife resolver aquela questão da campanha regional. Mas a Carla está representando o marketing hoje. Carla, quer falar sobre a estratégia de comunicação?
+Oi pessoal, então, conversando com o Gustavo antes da viagem, definimos uma abordagem em três ondas. Primeira onda é só um teaser, criando expectativa. Segunda onda explica os benefícios do novo sistema. Terceira onda é o tutorial prático de como usar.
+Legal Carla. E vocês já definiram quem vai fazer os vídeos explicativos? Lembro que o Daniel tinha oferecido ajuda com produção audiovisual.
+Sim, o Daniel vai produzir os vídeos. Inclusive ele já fez uns testes e a qualidade ficou ótima. Muito melhor que aqueles vídeos que fizemos ano passado para o projeto Phoenix. Lembram daquele desastre?
+Ah não me lembra, Fernando! O áudio estava horrível e a imagem tremendo. O pessoal de RH reclamou tanto que a Juliana teve que refazer tudo.
+Falando em Juliana, ela vai estar envolvida no treinamento dos usuários finais? Ela conhece muito bem os processos de todas as áreas.
+Sim, já conversei com a Juliana e ela topou coordenar os treinamentos. Inclusive ela sugeriu envolver a Beatriz também, que é super didática e o pessoal gosta muito dela.
+Ótima escolha. A Beatriz tem um dom para explicar coisas complexas de forma simples. E ela conhece bem a dinâmica de cada departamento.
+Perfeito. Agora, mudando de assunto, preciso falar sobre orçamento. O Bruno do financeiro me passou uns números ontem que me preocuparam um pouco. Estamos com um pequeno estouro, principalmente por causa daquelas licenças extras que precisamos comprar.
+Quanto estamos falando, Carlos? O Thiago da diretoria vai pirar se estorarmos muito o orçamento aprovado.
+Olha Patrícia, são cerca de vinte e cinco mil a mais. Não é o fim do mundo, mas também não é desprezível. O Bruno sugeriu cortar algumas funcionalidades não essenciais para compensar.
+Hmm, que tipo de funcionalidades? Espero que não seja nada que a Roberta do atendimento pediu especificamente. Ela foi bem enfática sobre as necessidades da equipe dela.
+Não, não é nada do core. São mais funcionalidades de relatórios avançados que só o pessoal da controladoria usaria. O próprio César disse que podem esperar para uma próxima versão.
+Ah, se o César liberou, então sem problemas. Ele é bem criterioso com essas coisas. E falando no César, ele vai participar dos testes finais?
+Sim, ele e a equipe toda da controladoria vão ser nossos beta testers principais. O Alexandre também se ofereceu para ajudar, já que ele entende tanto de sistemas quanto de processos financeiros.
+Ótimo. E o pessoal de vendas? A Camila mencionou que a equipe dela está ansiosa para testar o novo sistema de follow-up de clientes.
+A Camila vai coordenar os testes da parte comercial. Ela inclusive sugeriu alguns cenários de teste bem interessantes, baseados nos problemas que eles enfrentam hoje. O Ricardo também vai participar, representando a parte de pré-vendas.
+E o Paulo? Ele estava bem empolgado com o projeto na última reunião.
+O Paulo vai focar na parte de relatórios gerenciais. Ele e a Mônica vão validar se as informações estão sendo apresentadas da forma que os gestores precisam.
+Legal. Agora me conta uma coisa, Fernando. Como está o moral da equipe de desenvolvimento? O Pedro comentou que vocês estão fazendo bastante hora extra ultimamente.
+É verdade Carlos, o pessoal está um pouco cansado. Mas ao mesmo tempo estão empolgados com o projeto. O Mateus mesmo disse que é o projeto mais interessante que ele já trabalhou aqui. A Larissa também está super motivada.
+Que bom ouvir isso. E o André? Como ele está se adaptando? É novato na equipe, né?
+O André está indo muito bem. Apesar de ser júnior, ele tem mostrado bastante proatividade. A Sophia tem dado uma força para ele, fazendo mentoria. E o Vinícius também tem ajudado bastante com as questões mais técnicas.
+Ótimo trabalho de integração da equipe. E aquela questão que a Renata levantou sobre documentação? Já foi resolvida?
+Ah sim, contratamos a Isabela para fazer toda a documentação técnica. Ela é freelancer mas já trabalhou com a gente antes. A Tamires está dando apoio para ela, explicando os processos internos.
+Perfeito. E o cronograma de entrega? O Leonardo perguntou ontem quando vai poder comunicar a data oficial para os departamentos.
+Olha, mantendo o escopo ajustado que discutimos, conseguimos entregar a primeira fase até o final de setembro. O Eduardo do planejamento já confirmou que essa data não conflita com outros projetos importantes.
+E a segunda fase, para incluir Campinas e as funcionalidades que cortamos?
+Estamos pensando em janeiro. O Otávio sugeriu aproveitar o início do ano, quando o pessoal volta das férias mais disposto para mudanças.
+Faz sentido. E dá tempo para processar todos os feedbacks da primeira fase. A Natália sempre fala que é melhor fazer direito do que fazer rápido.
+Exato. Falando em feedback, como vai funcionar o processo de coleta? A Luana sugeriu usar aquela ferramenta de survey que compramos ano passado.
+Boa ideia da Luana. E o Gabriel pode ajudar com a análise dos dados. Ele é fera em estatística e vai conseguir extrair insights valiosos dos feedbacks.
+Perfeito. Agora uma questão importante: e se algo der muito errado? Temos plano de contingência? O Raul sempre insiste nessa questão de backup plans.
+O Raul tem razão. Preparamos um plano de rollback completo. Se identificarmos problemas críticos, conseguimos voltar ao sistema anterior em no máximo duas horas. A Adriana testou todo o processo semana passada.
+E a Carolina do compliance ficou tranquila com os aspectos de segurança e auditoria?
+Sim, a Carolina aprovou tudo. Inclusive ela elogiou a implementação dos controles de acesso. O Henrique fez um trabalho muito bom nessa parte.
+Que alívio. Compliance é sempre uma dor de cabeça se não for tratado desde o início. E o pessoal de TI geral? O Diego não reclamou da sobrecarga de infraestrutura?
+Pelo contrário, o Diego está empolgado. Ele disse que finalmente vamos ter um sistema moderno que não vai dar trabalho para manter. A Priscila também aprovou a arquitetura proposta.
+E aquela questão de integração com o sistema de RH? A Amanda estava preocupada com a sincronização de dados de funcionários.
+Já está resolvido. O Felipe desenvolveu uma integração muito elegante. Os dados sincronizam automaticamente toda noite. A própria Amanda testou e aprovou.
+Ótimo. E quanto aos backups? O Márcio do datacenter está confortável com a estratégia?
+O Márcio não só aprovou como sugeriu algumas melhorias que implementamos. Agora temos backup em tempo real e histórico de seis meses. A Bianca ficou responsável por monitorar os backups diariamente.
+Excelente. E a questão de performance? O sistema aguenta todos os usuários conectados simultaneamente? O José sempre reclama que os sistemas ficam lentos quando todo mundo usa ao mesmo tempo.
+Fizemos testes extensivos. O sistema suporta até quinhentos usuários simultâneos sem perda de performance. Considerando que temos trezentos funcionários no total, temos uma margem muito boa. O Rafael acompanhou todos os testes de carga.
+E o Leandro ficou satisfeito com a parte de relatórios? Ele é bem exigente com essas questões.
+O Leandro não só ficou satisfeito como sugeriu algumas melhorias que vamos implementar na segunda fase. Ele trabalhou junto com a Daniela para definir os relatórios mais importantes.
+Falando em sugestões, vocês lembram daquela ideia da Vanessa sobre gamificação? Chegaram a considerar?
+A ideia da Vanessa é interessante, mas decidimos deixar para uma terceira fase eventual. O Caio concordou que seria legal, mas que precisamos primeiro estabelecer o uso básico da plataforma.
+Faz sentido. Uma coisa de cada vez. E quanto ao help desk? Quem vai dar suporte quando o sistema entrar no ar? A Samanta tem disponibilidade?
+A Samanta vai coordenar o suporte de primeiro nível. O Cristiano vai dar backup para questões mais técnicas. E a Fernanda ficou responsável por treinar a equipe de suporte.
+E se aparecer algum bug crítico? Quem é que a gente aciona? O Enzo estará disponível nos primeiros dias?
+O Enzo confirmou que vai ficar de sobreaviso nas primeiras duas semanas. E o Lucas também se comprometeu a dar suporte remoto se necessário. A Aline fez um manual de troubleshooting bem detalhado.
+Perfeito. Agora uma pergunta da diretoria: qual é o ROI esperado deste projeto? O Hugo quer números para apresentar para o conselho.
+Calculamos que o ROI será de aproximadamente duzentos e vinte por cento em dezoito meses. Principalmente pela economia de tempo em comunicação e redução de retrabalho. A Érica fez toda a análise financeira.
+Números bem sólidos. E a Giovana do estratégico concordou com as premissas utilizadas?
+Sim, a Giovana revisou todos os cálculos e até sugeriu alguns cenários conservadores que mantêm o ROI acima de cento e cinquenta por cento.
+Excelente. Agora, pessoal, temos que falar de uma questão delicada. O departamento jurídico, representado pela Luciana, levantou algumas questões sobre proteção de dados. Como estamos lidando com isso?
+A Luciana trabalhou conosco desde o início para garantir compliance com a LGPD. O Sérgio implementou todas as funcionalidades de privacidade necessárias. A própria Luciana validou tudo semana passada.
+E a questão de contratos com fornecedores? O Murilo estava preocupado com alguns aspectos legais.
+O Murilo revisou todos os contratos e está tudo ok. A Bruna do jurídico também deu uma olhada e não encontrou nenhum problema.
+Ótimo. E falando em fornecedores, como está nossa relação com a empresa de desenvolvimento? O Fábio está satisfeito com a qualidade das entregas?
+O Fábio elogiou bastante a qualidade do código. Ele disse que é o fornecedor mais profissional que já trabalhou conosco. A Rafaela também confirmou que os prazos estão sendo cumpridos rigorosamente.
+Que bom ouvir isso. E quanto aos custos? Estão dentro do esperado? O Guilherme sempre fica preocupado com estouros de orçamento de fornecedores.
+Até agora, sem surpresas. O Guilherme acompanha os custos semanalmente e não identificou nenhum desvio significativo. A Tânia do procurement também está monitorando de perto.
+Perfeito. Agora, mudando de assunto, como está a comunicação com as outras unidades? O pessoal de Brasília, por exemplo, está acompanhando bem? A Marina comentou algo?
+A Marina tem participado ativamente das reuniões remotas. Ela e o Cláudio estão bem alinhados com o projeto. O Paulo Roberto, que é o gestor de lá, também está bem engajado.
+E o pessoal do Rio? A Silvia estava preocupada com a capacitação da equipe dela.
+A Silvia já organizou um cronograma de treinamento interno. O Ronaldo vai dar apoio presencial quando necessário. A Melissa também se ofereceu para fazer treinamentos remotos.
+Excelente colaboração entre as unidades. E Campinas? Mesmo não entrando na primeira fase, o Wagner está acompanhando?
+O Wagner participa de todas as reuniões de alinhamento. Ele quer que a equipe de Campinas já vá se familiarizando com o sistema para quando chegou a vez deles. A Viviane também está envolvida nesse acompanhamento.
+Muito bom. E quanto aos aspectos de segurança da informação? O Ricardo do InfoSec fez as validações necessárias?
+O Ricardo conduziu uma auditoria completa semana passada e aprovou tudo. A Letícia implementou todos os controles de segurança que ele solicitou. Até o penetration test foi feito pelo pessoal da empresa que o Ricardo recomendou.
+E os resultados do penetration test? Alguma vulnerabilidade encontrada?
+Encontraram duas vulnerabilidades menores que já foram corrigidas. O Júlio trabalhou no fim de semana para resolver tudo. O próprio pessoal do teste disse que o sistema está muito bem protegido.
+Ótimo trabalho do Júlio. E falando em final de semana, como está a questão da implementação? Vai ser necessário trabalhar fim de semana para fazer a transição?
+Planejamos fazer a migração numa sexta-feira à noite, terminando sábado de manhã. O Thales coordenou todo o cronograma. Algumas pessoas-chave vão estar disponíveis, mas nada muito pesado.
+E segunda-feira todo mundo já pode usar o sistema normalmente? A Eliane estava preocupada com a produtividade da primeira semana.
+Exato, segunda-feira business as usual. A Eliane inclusive sugeriu ter algumas pessoas de apoio circulando pelos departamentos para esclarecer dúvidas pontuais.
+Ótima ideia da Eliane. E quanto ao monitoramento pós-implementação? Quem vai acompanhar as métricas de uso e performance? O Rodrigo Junior tem disponibilidade?
+O Rodrigo Junior vai ser nosso analista principal de métricas. A Camilla vai ajudar com a parte de satisfação dos usuários. E o Everton ficou responsável pelos indicadores técnicos.
+Perfeito. E se precisarmos fazer ajustes rápidos no sistema? Qual é o processo? A Jéssica estava perguntando sobre isso.
+Temos um processo de hotfix bem definido. Mudanças críticas podem ser implementadas em questão de horas. O Kevin documentou todo o processo. A Bárbara também foi treinada para dar apoio nessas situações.
+E para mudanças maiores? A Monique queria entender como vão funcionar as evoluções futuras do sistema.
+Para evoluções maiores, teremos ciclos de desenvolvimento de três meses. O Igor vai coordenar a priorização das demandas. A Tatiane ficou responsável por coletar e organizar as sugestões dos usuários.
+Excelente organização. E quanto ao arquivo de dados antigos? O Antônio estava preocupado com o acesso a informações históricas.
+O Antônio pode ficar tranquilo. Todos os dados históricos serão migrados e ficarão acessíveis através de uma função específica de consulta. O Davi criou uma interface muito intuitiva para essas consultas.
+E se alguém precisar de dados muito antigos, de anos atrás? A Jaqueline perguntou sobre relatórios de 2019, por exemplo.
+Dados até 2015 serão migrados completamente. Dados mais antigos ficarão em um arquivo consultável offline. O Renan organizou tudo isso de forma muito didática.
+Ótimo. Agora pessoal, acho que cobrimos todos os pontos principais. Alguém tem alguma questão adicional? O Flávio queria falar alguma coisa?
+Na verdade sim, Carlos. Queria sugerir que façamos uma cerimônia de lançamento do sistema. Algo para celebrar o projeto e motivar todo mundo para usar a nova plataforma.
+Ideia interessante do Flávio. O que vocês acham? A Marta do eventos conseguiria organizar algo assim?
+Acho que a Marta adoraria organizar. E seria uma boa oportunidade para a alta direção mostrar apoio ao projeto. O pessoal fica mais motivado quando vê que a diretoria valoriza essas iniciativas.
+Verdade. E poderíamos aproveitar para fazer um showcase das principais funcionalidades. O Nelson sempre gosta dessas apresentações práticas.
+Ótima ideia. E a Cláudia poderia coordenar a parte de comunicação visual do evento. Ela tem um olho muito bom para essas coisas.
+Perfeito então. Vou conversar com a Marta e a Cláudia sobre a organização do evento. E vocês, Fernando e Lucas, podem preparar uma demo interativa do sistema?
+Claro, Carlos. Vamos fazer uma apresentação bem dinâmica. O Edson pode ajudar com a parte técnica da demo. Ele é ótimo com apresentações.
+E a Lívia poderia moderar a sessão de perguntas e respostas. Ela tem experiência em eventos corporativos e sabe como manter o público engajado.
+Excelente. Então está definido o evento de lançamento. Agora, para finalizar, vou fazer um resumo dos próximos passos. Patrícia, você pode tomar nota para distribuir depois?
+Claro, Carlos. Já estou anotando tudo.
+Então pessoal, próximos passos: Fernando finaliza a documentação técnica até sexta-feira. Ana coordena os últimos testes com usuários na semana que vem. Lucas resolve a questão de Campinas para a segunda fase. Carla alinha com o Gustavo a campanha de comunicação. E eu vou falar com a diretoria sobre o orçamento ajustado.
+E não podemos esquecer: reunião de acompanhamento na próxima quarta-feira, mesmo horário. O Roberto consegue confirmar presença? Ele perdeu toda a reunião de hoje.
+Vou confirmar com o Roberto ainda hoje. Ele estava realmente trancado no trânsito, mandou mensagem no grupo.
+Perfeito. E pessoal, quero aproveitar para parabenizar toda a equipe pelo excelente trabalho. Esse projeto está ficando muito bom, e tenho certeza de que vai fazer uma grande diferença na empresa.
+Obrigado Carlos. E obrigado a todos pela colaboração. É muito bom trabalhar com uma equipe tão comprometida. Nos vemos na próxima quarta-feira então.
+Isso mesmo, pessoal. Tenham uma ótima semana e qualquer urgência, vocês sabem onde me encontrar. Até a próxima!
