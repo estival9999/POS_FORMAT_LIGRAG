@@ -1,0 +1,56 @@
+===============================================
+      ACESSO AO CHAT LIGHTRAG VIA API
+===============================================
+
+INFORMAÇÕES DE CONEXÃO:
+- URL: https://7a05-168-194-80-252.ngrok-free.app
+- API Key: sk-lightrag-estival-2024-secure-api-key-xyz789
+
+ARQUIVO NECESSÁRIO:
+- chat_lightrag_api.py
+
+COMO USAR:
+1. Instalar dependência: pip install requests
+2. Executar: python chat_lightrag_api.py
+3. Conversar normalmente no terminal
+
+CONFIGURAÇÕES (já definidas no código):
+✓ Modo: mix
+✓ Top K: 30 resultados  
+✓ Max Tokens: 8000
+✓ Histórico: 3 conversas
+✓ Resposta: Múltiplos parágrafos
+
+COMANDOS NO CHAT:
+- Digite sua pergunta e pressione Enter
+- 'limpar' - limpa histórico
+- 'sair' - encerra o chat
+- 'ajuda' - mostra comandos
+
+===============================================
+
+EXEMPLO DE USO RÁPIDO EM PYTHON:
+
+import requests
+
+url = "https://7a05-168-194-80-252.ngrok-free.app"
+api_key = "sk-lightrag-estival-2024-secure-api-key-xyz789"
+
+response = requests.post(
+    f"{url}/query",
+    headers={"X-API-Key": api_key},
+    json={
+        "query": "Sua pergunta aqui",
+        "mode": "mix",
+        "top_k": 30,
+        "max_token_for_text_unit": 8000,
+        "max_token_for_global_context": 8000,
+        "max_token_for_local_context": 8000,
+        "history_turns": 3,
+        "response_type": "Multiple Paragraphs"
+    }
+)
+
+print(response.json()["response"])
+
+===============================================
